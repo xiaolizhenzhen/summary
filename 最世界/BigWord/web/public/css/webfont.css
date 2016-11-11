@@ -1,0 +1,29 @@
+@font-face {
+            font-family: zworld;
+            src: url(http://zworld.qyerstatic.com/web/common/font/zworld.eot?mz108c);
+            src: url(http://zworld.qyerstatic.com/web/common/font/zworld.eot?mz108c#iefix) format('embedded-opentype'), url(http://zworld.qyerstatic.com/web/common/font/zworld.ttf?mz108c) format('truetype'), url(http://zworld.qyerstatic.com/web/common/font/zworld.woff?mz108c) format('woff'), url(http://zworld.qyerstatic.com/web/common/font/zworld.svg?mz108c#zworld) format('svg');
+            font-weight: 400;
+            font-style: normal
+        }
+
+        #iphone {
+            font-family: zworld;
+            font-size: 50px;
+            color: white;
+        }
+
+        #iphone:before {
+           /* content的值最后一位可以从0到f分别代表不同的图标样式*/
+            content: "\e607"
+        }
+
+        .clock{
+            font-family: zworld;
+            font-size: 80px;
+            color: white;
+            line-height: 100px;
+        }
+        .clock:before {
+           /* content的值最后一位可以从0到f分别代表不同的图标样式*/
+            content: "\e601"
+        }
