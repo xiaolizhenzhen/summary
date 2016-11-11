@@ -1,0 +1,116 @@
+@font-face {
+            font-family: zworld;
+            src: url(http://zworld.qyerstatic.com/web/common/font/zworld.eot?mz108c);
+            src: url(http://zworld.qyerstatic.com/web/common/font/zworld.eot?mz108c#iefix) format('embedded-opentype'), url(http://zworld.qyerstatic.com/web/common/font/zworld.ttf?mz108c) format('truetype'), url(http://zworld.qyerstatic.com/web/common/font/zworld.woff?mz108c) format('woff'), url(http://zworld.qyerstatic.com/web/common/font/zworld.svg?mz108c#zworld) format('svg');
+            font-weight: 400;
+            font-style: normal
+        }
+
+        #clock{
+            font-family: zworld;
+            font-size: 50px;
+            color:purple;
+            line-height: 50px;
+        }
+        #clock:before {
+           /* content的值最后一位可以从0到f分别代表不同的图标样式*/
+            content: "\e601"
+        }
+
+        #zsj{
+            font-family: zworld;
+            font-size: 50px;
+            color:purple;
+            line-height: 50px;
+        }
+        #zsj:before{
+           /* content的值最后一位可以从0到f分别代表不同的图标样式*/
+            content: "\e602"
+        }
+        #ysj{
+            font-family: zworld;
+            font-size: 50px;
+            color:green;
+        }
+        #ysj:before {
+            content: "\e603"
+        }
+        #love{
+            font-family: zworld;
+            font-size: 50px;
+            color:green;
+        }
+        #love:before {
+            content: "\e604"
+        }
+        #house{
+            font-family: zworld;
+            font-size: 50px;
+            color:green;
+        }
+        #house:before {
+            content: "\e605"
+        }
+        #lou{
+            font-family: zworld;
+            font-size: 50px;
+            color:green;
+        }
+        #lou:before {
+            content: "\e606"
+        }
+
+        #iphone {
+            font-family: zworld;
+            font-size: 50px;
+            color: red;
+        }
+        #iphone:before {
+            content: "\e607"
+        }
+        #men {
+            font-family: zworld;
+            font-size: 50px;
+            color: red;
+        }
+        #men:before {
+            content: "\e608"
+        }
+        #email{
+            font-family: zworld;
+            font-size: 50px;
+            color: red;
+        }
+        #email:before {
+            content: "\e609"
+        }
+        #ta {
+            font-family: zworld;
+            font-size: 50px;
+            color: red;
+        }
+        #ta:before {
+            content: "\e610"
+        }
+        #ssj {
+            font-family: zworld;
+            font-size: 50px;
+            color: red;
+        }
+        #ssj:before {
+            content: "\e611"
+        } 
+        #j {
+            font-family: zworld;
+            font-size: 50px;
+            color: red;
+        }
+        #j:before {
+            content: "\e614"
+        } 
+        #weixin{ font-family: zworld;font-size: 50px; color:green;}
+        #weixin:before {content: "\e612"} 
+        #weibo{ font-family: zworld;font-size: 50px; color:green;}
+        #weibo:before {content: "\e613"} 
+        #wifi{ font-family: zworld;font-size: 50px; color:green;}
+        #wifi:before {content: "\e614"}

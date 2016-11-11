@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>css‘≤Ω«</title>
+		<link rel="stylesheet" type="text/css" href="tab.css">
+		<style>
+			.pac-man {
+			    width: 0px;
+			    height: 0px;
+			    border: 60px solid yellow;
+			    border-color: yellow transparent yellow yellow ;
+			    -webkit-border-radius: 60px;
+			    -moz-border-radius: 60px;
+			    -ms-border-radius: 60px;
+			    border-radius: 60px;
+			}
+
+			.heart{
+			    position: relative;
+			    width: 160px;
+			    height: 200px;
+			} 
+			.heart:before{
+			    position: absolute;
+			    left: 20px;
+			    width: 80px;
+			    height: 120px;
+			    content: " ";
+			    background: #f00;
+			    -moz-border-radius: 100px;
+			    -webkit-border-radius: 100px;
+			    border-radius: 100px 100px 0 0;
+			    -webkit-transform: rotate(-45deg);
+			} 
+			.heart:after{
+			    position: absolute;
+			    left: 48px;
+			    top: 0px;
+			    width: 80px;
+			    height: 120px;
+			    content: " ";
+			    background: #f00;
+			    -moz-border-radius: 100px;
+			    -webkit-border-radius: 100px;
+			    border-radius: 100px 100px 0 0;
+			    -webkit-transform: rotate(45deg);
+			}
+
+			.wrap .gossip {
+			    position: relative;
+			    width: 96px;
+			    height: 48px;
+			    border-color: #000;
+			    border-style: solid;
+			    border-width: 2px 2px 50px 2px;
+			    background: #fff;
+			    border-radius: 100%;
+			}
+			.wrap .gossip:before {
+			    position:
+			    absolute;
+			    top: 50%;
+			    left: 0;
+			    width: 12px;
+			    height: 12px;
+			    border: 18px solid #000;
+			    background: #fff;
+			    content: "";
+			    border-radius: 100%;
+			}
+			.wrap .gossip:after {
+			    position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    width: 12px;
+			    height: 12px;
+			    border: 18px solid #fff;
+			    background: #000;
+			    content: "";
+			    border-radius:100%;
+			} 
+						
+		</style>
+	</head>
+	<body>
+		
+		<div class="pac-man"></div>
+		<div class="heart"></div>
+		<div class="gossip"></div>
+	</body>
+</html>
